@@ -14,7 +14,7 @@ Hướng dẫn đầy đủ để chạy lại toàn bộ pipeline: thu thập d
 ### Cài đặt thư viện
 
 ```bash
-git clone <link-repo-cua-nhom>
+git clone <https://github.com/Vasya8386/marc-adr-experiment>
 cd marc-adr-experiment
 pip install -r requirements.txt
 ```
@@ -58,7 +58,7 @@ Nếu pip báo lỗi "externally-managed-environment" (thường gặp trên Lin
 
 **Việc này để làm gì:** các script không ghi API key trực tiếp trong code (để tránh lộ key khi đưa code lên GitHub công khai) — thay vào đó, script đọc key từ "biến môi trường" của hệ điều hành. Bạn cần khai báo 2 biến này trước khi chạy bất kỳ script nào cần đến chúng.
 
-**⚠️ Không bao giờ dán API key trực tiếp vào code hoặc gửi qua chat/tin nhắn công khai.**
+** Không bao giờ dán API key trực tiếp vào code hoặc gửi qua chat/tin nhắn công khai.**
 
 **Windows (Command Prompt) — gõ trong cửa sổ cmd:**
 ```cmd
