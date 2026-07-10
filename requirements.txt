@@ -1,0 +1,13 @@
+# === Thu thập dữ liệu (Bước 1) ===
+requests
+PyGithub
+
+# === Xử lý dữ liệu / RAG retrieval (Bước 1 & 2) ===
+scikit-learn
+pandas
+
+# === Đánh giá (Bước 3) ===
+bert-score
+# QUAN TRỌNG: bert-score chưa tương thích với transformers v5.x (phát hành 26/1/2026)
+# Ép cài bản 4.x, nếu không sẽ lỗi "RobertaTokenizer has no attribute build_inputs_with_special_tokens"
+transformers<5

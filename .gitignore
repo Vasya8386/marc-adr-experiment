@@ -1,0 +1,14 @@
+# === TUYỆT ĐỐI không commit API key ===
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Log tạm / file trung gian không cần thiết cho người khác
+sample_to_review.json
+skipped_files_log.csv
+discovered_repos.txt
